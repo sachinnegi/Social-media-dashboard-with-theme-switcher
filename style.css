@@ -2,11 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow-y: hidden;
-    overflow-x: hidden;
+    overflow: hidden;
+    
 }
 body{
-    min-width: 375px;
+    min-width: 295px;
     font-family: 'Inter', sans-serif;
 }
 a{
