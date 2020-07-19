@@ -247,6 +247,41 @@ input:checked + .slider:before {
     }
 }
 
+
+@media (max-width:1300px){
+    *{
+        overflow-y: auto;
+    }
+    header{
+        height: 22vh;
+        width: 80%;
+        
+        
+    }
+
+    .container{
+        flex-wrap: nowrap;
+        height: auto;
+    }
+
+    .followers .overview,.card{
+        width: 40%;
+        height: 195px;
+        transition: none;
+    }
+    .followers,.overview{
+        
+        height: 30rem;
+        width: 80%;
+        
+    } 
+    .overview {
+        height: 70rem;
+    }
+
+}
+
+
 @media (max-width:600px){
     *{
         overflow-y: auto;
@@ -324,12 +359,8 @@ input:checked + .slider:before {
     .switch span{
         flex:1;
     }
-
-
     
 }
-
-
 
 
 .h{
