@@ -248,7 +248,7 @@ input:checked + .slider:before {
 }
 
 
-@media (max-width:1300px){
+@media (max-width:1250px){
     *{
         overflow-y: auto;
     }
@@ -266,7 +266,7 @@ input:checked + .slider:before {
 
     .followers .overview,.card{
         width: 40%;
-        height: 195px;
+        height: 200px;
         transition: none;
     }
     .followers,.overview{
@@ -276,7 +276,10 @@ input:checked + .slider:before {
         
     } 
     .overview {
-        height: 60rem;
+        height: 50rem;
+    }
+    .overview .card{
+        height: 150px;
     }
 
 }
