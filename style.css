@@ -276,7 +276,7 @@ input:checked + .slider:before {
         
     } 
     .overview {
-        height: 70rem;
+        height: 60rem;
     }
 
 }
